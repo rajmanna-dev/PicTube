@@ -28,16 +28,15 @@ pip install git+https://github.com/rajmanna-dev/PicTube.git
 ## 🚀 Usage
 
 ```python
-import pictube
+# Import pic_tube file of your project
+import pic_tube as pic
 
-# returns 'Pictube-rembg-pic.png'
-pictube.del_bg('pic.png')
+# Create a new object of the PicTube class and pass the image file name
+image = pic.PicTube('pic.jpg')
 
-# returns 'Pictube-rembg-pic.png'
-pictube.del_bg('pic.jpg')
+# This function can change the inputted file format into .PNG
+image.convert_to_png()
 
-# returns 'Pictube-rembg-pic.png'
-pictube.del_bg('pic.jpeg')
 ```
 
 ## ⭐ Contributing
