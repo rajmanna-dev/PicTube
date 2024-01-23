@@ -1,6 +1,6 @@
 # PicTube: Background Remover
 
-## 🗿 Introduction
+## Introduction
 This is an <b>official PicTube</b> repository.
 
 A flask (python web framework) based web application 
