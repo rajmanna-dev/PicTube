@@ -9,7 +9,7 @@ files.
 
 ## 🔧 Dependencies and Installation
 
-* Python >= 3.10 (Recommended version: 3.12.1)
+* Python >= 3.6, < 3.12 (Recommended version: 3.12.1)
 * Pip 23.3.2
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PicTube.
